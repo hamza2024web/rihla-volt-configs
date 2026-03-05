@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5435/bookingdb
+    username: booking_admin
+    password: booking_password
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
